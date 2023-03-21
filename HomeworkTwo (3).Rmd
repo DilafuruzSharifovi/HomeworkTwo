@@ -40,14 +40,19 @@ print(x)
 **Question 4** How do we get R to print the text "SBF!" 30 times without repeatingly typing it?
 
 ```{r}
-# Write Your Answer Here!
+x <- rep("SBF", 30)
+x
+print(x)
 ```
 
 **Question 5** Create two vectors named "wizards" and "ranking".
 Let the "wizards" include the names Harry, Ron, Fred, George and Sirius, while the "ranking" includes the numbers 4, 2, 5, 1, and 3.
 
 ```{r}
-# Write Your Answer Here!
+wizards <- c("Harry", "Ron", "Fred", "George", "Sirius")
+wizards
+ranking <- c(4, 2, 5, 1, 3)
+ranking
 ```
 
 **Question 6** Print/extract the second element of the wizards vector.
