@@ -88,7 +88,11 @@ Save test scores in a vector named 'scores'.
 Calculate the mean, median, and range of exam grades.
 
 ```{r}
-# Write Your Answer Here!
+scores <- c(18, 95, 76, 90, 84, 83, 80, 79, 63, 76, 55, 78, 90, 81, 88, 89, 92, 73, 83, 72, 85, 66, 77, 82, 99, 87)
+scores
+mean(scores)
+median(scores)
+range(scores)
 ```
 
 **Question 10** In 2015, Nilay had an annual income of 22,000 TL, and total expenses of 3,000 TL.
