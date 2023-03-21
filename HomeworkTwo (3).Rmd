@@ -58,9 +58,9 @@ ranking
 **Question 6** Print/extract the second element of the wizards vector.
 
 ```{r}
-# Write Your Answer Here!
+wizards["Ron"]
+print(wizards["Ron"])
 ```
-
 **Question 7** Replace the names Fred, George and Sirius in the vector 'wizards' with the names Hermione, Ginny, and Malfoy.
 
 ```{r}
