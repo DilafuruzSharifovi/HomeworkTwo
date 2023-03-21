@@ -64,7 +64,14 @@ print(wizards["Ron"])
 **Question 7** Replace the names Fred, George and Sirius in the vector 'wizards' with the names Hermione, Ginny, and Malfoy.
 
 ```{r}
-# Write Your Answer Here!
+wizards <- c("Harry", "Ron", "Fred", "George", "Sirius")
+wizards
+y <- replace(wizards, 3, "Hermione")
+y
+x <- replace(y, 4, "Ginny")
+x
+wizards <- replace(x, 5, "Malfoy")
+wizards
 ```
 
 **Question 8** Anyone who hasn't read Harry Potter (like the professor of this class) needs tags to know who these characters are.
